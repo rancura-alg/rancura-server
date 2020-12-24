@@ -4,7 +4,7 @@ module.exports = shipit => {
 
     shipit.initConfig({
         default: {
-            deployTo: '/var/node/shipit-test',
+            deployTo: '/var/node/rancura-server',
             repositoryUrl: 'https://github.com/rancura-alg/rancura-server.git',
         },
         staging: {
